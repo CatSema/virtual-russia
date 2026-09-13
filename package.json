@@ -1,0 +1,21 @@
+{
+  "name": "virtual-russia",
+  "private": true,
+  "packageManager": "pnpm@11.5.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @virtual-russia/web --filter @virtual-russia/api dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "db:generate": "pnpm --filter @virtual-russia/api prisma:generate",
+    "db:migrate": "pnpm --filter @virtual-russia/api prisma:migrate"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.32.0"
+  }
+}

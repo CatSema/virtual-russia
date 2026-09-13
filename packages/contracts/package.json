@@ -1,0 +1,23 @@
+{
+  "name": "@virtual-russia/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "eslint": "^9.25.0",
+    "vitest": "^3.1.2"
+  }
+}

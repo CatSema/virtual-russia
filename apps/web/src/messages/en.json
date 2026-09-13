@@ -1,0 +1,16 @@
+{
+  "Navigation": { "home": "Home", "tours": "Tours", "about": "About" },
+  "Home": {
+    "title": "A platform for virtual tours around Russia",
+    "description": "Interactive virtual journeys powered by 360° content, audio guides and immersive technology.",
+    "statusTitle": "Platform status",
+    "checking": "Checking connection…",
+    "available": "API is available",
+    "unavailable": "API is unavailable",
+    "retry": "Try again",
+    "services": "Infrastructure services",
+    "footer": "Virtual Russia — a technical foundation for virtual travel."
+  },
+  "Pages": { "toursTitle": "Tours", "aboutTitle": "About the project" },
+  "Common": { "menu": "Open menu", "close": "Close menu" }
+}
